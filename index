@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desafio Empreendedor</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      color: #222;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #0066cc;
+    }
+    a.botao {
+      background: #0066cc;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Desafio Empreendedor</h1>
+  <p>Conectando o saber ao fazer. Transforme sua mentalidade e conquiste resultados reais.</p>
+  <a class="botao" href="https://wa.me/55SEUNUMERO" target="_blank">Quero Participar</a>
+</body>
+</html>
