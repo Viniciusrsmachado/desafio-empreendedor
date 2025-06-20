@@ -1,35 +1,57 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Desafio Empreendedor</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #f0f0f0;
-      color: #222;
-      text-align: center;
-      padding: 2rem;
-    }
-    h1 {
-      color: #0066cc;
-    }
-    a.botao {
-      background: #0066cc;
-      color: white;
-      padding: 1rem 2rem;
-      border-radius: 8px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
+
+<header>
+  <img src="https://yt3.googleusercontent.com/ytc/AIdro_nicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw=s176-c-k-c0x00ffffff-no-rj"
+       alt="Logo Desafio Empreendedor"
+       style="height: 80px; border-radius: 50px; margin-bottom: 1rem;">
   <h1>Desafio Empreendedor</h1>
-  <p>Conectando o saber ao fazer. Transforme sua mentalidade e conquiste resultados reais.</p>
-  <a class="botao" href="https://wa.me/5547988195450" target="_blank">Quero Saber Mais Sobre o DESAFIO EMPREENDEDOR</a>
+  <p class="authority">Programa comprovado: já transformou mais de 20.000 negócios</p>
+</header>
+<style>
+  body { font-family: sans-serif; background: #f7f7f7; color: #333; }
+  header {
+    background-color: #0B1A39; color: white; padding: 2rem 1rem;
+    text-align: center;
+  }
+  .hero { background: #FFDC97; padding: 3rem 1rem; text-align: center; }
+  .hero h2 { color: #0B1A39; }
+  .cta-btn {
+    background: #FFB119;
+    color: #0B1A39;
+    padding: 1rem 2rem;
+    margin: 1.5rem auto;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: inline-block;
+  }
+  .cta-btn:hover { background: #e6a600; }
+  .authority, .social-proof {
+    color: #634C3B;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+</style>
+
+<body>
+  <header>
+    <h1>Desafio Empreendedor</h1>
+    <p class="authority">Programa comprovado: já transformou mais de 20.000 negócios</p>
+  </header>
+
+  <section class="hero">
+    <h2>Transforme seu negócio em 7 meses</h2>
+    <p>Programa de mudança comportamental, personalizado e com resultados reais e sustentáveis – impacto que dura para sempre.</p>
+    <button class="cta-btn">Aceitar o Desafio</button>
+  </section>
+
+  <section class="social-proof">
+    “Nossa equipe cresceu 75% durante o desafio!” – case real
+  </section>
+
+  <section class="formulario">
+    <h2>Inscreva-se na próxima turma (vagas limitadas!)</h2>
+    <!-- formulário aqui -->
+    <button class="cta-btn">Quero Participar</button>
+  </section>
 </body>
-</html>
